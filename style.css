@@ -1,0 +1,99 @@
+body {
+  background-color: #000;
+  text-align: left;
+  color: yellow;
+  margin: 0 24pt 0 24pt;
+  font-family: Arial, sans-serif;
+  font-size: 13pt;
+}
+
+div {
+  height: 16pt;
+}
+
+a {
+  color: #ff66ff;
+  text-align: right;
+  margin: 0 24pt 0 24pt;
+  text-decoration: none;
+}
+
+b {
+  background-color: #000;
+  text-align: left;
+  color: yellow;
+  margin: 0 24pt 0 24pt;
+  font-family: Arial, sans-serif;
+  font-size: 14pt;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  font-size: 1em;
+  padding: 1em;
+  margin: 2em;
+}
+.flex-item-left {
+  flex: 76%;
+  text-align: left;
+}
+
+.flex-item-middle {
+  padding: 0.25em;
+  flex: 8%;
+  color: #de2323e6;
+}
+.flex-item-right {
+  flex: 16%;
+  top: 1em;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+
+@media (max-width: 800px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    font-size: 1em;
+    padding: 1em;
+    margin: 2em;
+  }
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+  }
+}
+
+/* css for buttons n stuff */
+
+.weektextbox {
+  position: fixed;
+  margin-top: 1em;
+  right: 4.5em;
+  color: #0b3;
+  height: 60pt;
+  text-align: left;
+}
+
+.weekcontent {
+  position: fixed;
+  margin-top: 3em;
+  right: 4.5em;
+  color: #ff66ff;
+  height: 60pt;
+  text-align: left;
+}
+
+.backbutton {
+  position: fixed;
+  bottom: 0.5em;
+  margin-right: 2.7em;
+  color: #ff66ff;
+  height: 60pt;
+  text-align: right;
+}

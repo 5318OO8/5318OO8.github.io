@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        font-size: 16px;
+        padding: 16px;
+      }
+      .flex-item-left {
+        background-color: #f1f1f1;
+        padding: 16px;
+        flex: 76%;
+      }
+      .flex-item-middle {
+        background-color: rgba(111, 113, 115, 0);
+        padding: 4px;
+        flex: 8%;
+      }
+      .flex-item-right {
+        background-color: dodgerblue;
+        padding: 26px;
+        flex: 16%;
+      }
+      /* Responsive layout - makes a one column-layout instead of a two-column layout */
+      @media (max-width: 800px) {
+        .flex-item-right,
+        .flex-item-left {
+          flex: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item-left">[content]</div>
+      <div class="flex-item-middle"></div>
+      <div class="flex-item-right">Week 2</div>
+    </div>
+  </body>
+</html>

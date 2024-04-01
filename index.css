@@ -1,0 +1,234 @@
+#page {
+  background-color: #000;
+  text-align: right;
+  margin: 0 24pt 0 24pt;
+  padding: 0;
+  max-width: 700px;
+  /* border:1px solid red; */
+}
+#header {
+  height: 75px;
+  font-size: 1.2em;
+}
+
+.post {
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+#body {
+  background-color: #000;
+  text-align: left;
+  color: yellow;
+  margin: 0px auto;
+  margin: 0 24pt 0 24pt;
+  padding: 0;
+  max-width: 700px;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+.narrowcolumn {
+  float: left;
+  width: calc(100% - 80px);
+  max-width: 700px;
+  overflow-wrap: break-word;
+}
+.post {
+  margin: 0 0 10px;
+  text-align: left;
+}
+#footer {
+  border: none;
+  width: 700px;
+  clear: both;
+  font-size: 1.2em;
+}
+#content {
+  background-color: red;
+  padding: 10px;
+  margin: 0 24pt 0 24pt;
+}
+
+.narrowcolumn .entry,
+.widecolumn .entry {
+  line-height: 200%;
+  clear: both;
+}
+
+a,
+h2 a:hover,
+h3 a:hover {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+/* Menu styles
+  -------------------------------------------------------------------------------*/
+#main-menu {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  margin-top: 16px;
+  font-size: 1em;
+}
+
+#main-menu a {
+  color: #4b4b4b;
+}
+
+#main-menu a:hover {
+  color: red !important;
+}
+#main-menu ul {
+  list-style: none;
+  text-align: justify;
+  padding-inline-start: 0px;
+}
+#main-menu ul li {
+  clear: both;
+  position: relative;
+  margin-top: 10px;
+}
+
+.menu-item-has-children:hover {
+  border: 1px solid #735010 !important;
+  background-color: #735010;
+}
+.menu-item-has-children:hover a {
+  color: #000 !important;
+}
+
+.menu-item-has-children:hover a:hover {
+  color: #735010 !important;
+}
+
+#main-menu li,
+div.menu li {
+  float: left;
+  position: relative;
+}
+
+#main-menu ul ul {
+  display: none;
+  position: absolute;
+  top: 23px;
+  left: -1px;
+  float: left;
+  width: 150px;
+  line-height: 25px;
+  z-index: 22px;
+}
+
+.sub-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #735010;
+  border: 1px solid #735010;
+}
+ul.sub-menu li {
+  clear: both;
+  border: none !important;
+  padding-left: 0px !important;
+}
+
+.sub-menu li:hover {
+  border: none !important;
+}
+
+#main-menu ul li:hover > ul {
+  display: block;
+}
+
+#main-menu ul li.current_page_item > a,
+#main-menu ul li.current-menu-ancestor > a,
+#main-menu ul li.current-menu-item > a,
+#main-menu ul li.current-menu-parent > a {
+  color: red;
+}
+
+#hamburger {
+  display: none;
+}
+
+.hamburger {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: none !important;
+}
+.hamburger:hover {
+  opacity: 1 !important;
+}
+.hamburger-inner.changed:before,
+.hamburger-inner.changed:after {
+  background-color: red;
+  /*background-color: red;*/
+}
+
+.hamburger-inner,
+.hamburger-inner:after,
+.hamburger-inner:before {
+  background-color: #000;
+}
+
+/* End Various Tags & Classes*/
+
+@media screen and (max-width: 1100px) {
+  .narrowcolumn {
+    max-width: 100% !important;
+    margin: 0 40px 0 40px;
+  }
+  #page {
+    overflow: hidden;
+  }
+  #main-menu {
+    margin-top: 0;
+    left: -100%;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    font-size: 2em;
+  }
+  #main-menu ul li {
+    margin-top: 25px;
+  }
+  .hamburger {
+    display: inline-block !important;
+    font-size: 1.2em !important;
+  }
+  /*Make dropdown links appear inline*/
+
+  .is-active {
+    color: red !important;
+  }
+
+  .show-menu {
+    left: 30px !important;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+  }
+}
+
+.hamburger {
+  font: inherit;
+  display: inline-block;
+  overflow: visible;
+  margin: 0;
+  padding: 30px 30px 26px 30px;
+  cursor: pointer;
+  transition-timing-function: linear;
+  transition-duration: 0.15s;
+  transition-property: opacity, -webkit-filter;
+  transition-property: opacity, filter;
+  transition-property: opacity, filter, -webkit-filter;
+  text-transform: none;
+  color: inherit;
+  border: 0;
+  background-color: transparent;
+}

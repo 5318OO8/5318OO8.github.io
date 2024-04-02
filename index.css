@@ -59,19 +59,14 @@ u {
 
 /* Week 1 text hyperlinks */
 
-.act1:hover {
-  color: yellow;
+.wk1loading {
+  .strike-through {
+    text-decoration: line-through;
+    text-decoration-color: #0b3;
+  }
 }
-.act2:hover {
-  color: yellow;
-}
-.act3:hover {
-  color: yellow;
-}
-.act4:hover {
-  color: yellow;
-}
-.act4:hover {
+
+.actwk1:hover {
   color: yellow;
 }
 

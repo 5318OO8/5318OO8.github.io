@@ -1,17 +1,6 @@
-.act1:hover {
-  color: yellow;
-}
-
-.act2:hover {
-  color: yellow;
-}
-
-.act3:hover {
-  color: yellow;
-}
-
-.backbutton:hover {
-  color: #ffffff;
+/* core elements */
+a {
+  text-decoration: none;
 }
 
 body {
@@ -27,11 +16,9 @@ div {
   height: 16pt;
 }
 
-a {
-  color: #ff66ff;
-  text-align: right;
-  margin: 0 24pt 0 24pt;
-  text-decoration: none;
+ul {
+  list-style-type: none;
+  list-style-position: outside;
 }
 
 b {
@@ -41,6 +28,74 @@ b {
   font-family: Arial, sans-serif;
   font-size: 14pt;
 }
+
+figure {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+.underline {
+  text-decoration: underline gray solid;
+}
+
+.nospacebetween {
+  margin: 0;
+  padding: 0;
+}
+
+.littlespacebetween {
+  height: 6px;
+}
+
+/* Week 1 text hyperlinks */
+
+.act1:hover {
+  color: yellow;
+}
+.act2:hover {
+  color: yellow;
+}
+.act3:hover {
+  color: yellow;
+}
+.act4:hover {
+  color: yellow;
+}
+.act4:hover {
+  color: yellow;
+}
+
+.backbutton {
+  color: #ff66ff;
+  text-align: right;
+  margin: 0 24pt 0 24pt;
+  text-decoration: none;
+}
+.backbutton:hover {
+  color: #ffffff;
+}
+
+.textlinkwk1 {
+  color: yellow;
+  text-decoration: none;
+}
+.textlinkwk1:hover {
+  color: blue;
+}
+/* Week xxxxx text hyperlinks */
+
+/* Flex-item-stuff */
+
 * {
   box-sizing: border-box;
 }

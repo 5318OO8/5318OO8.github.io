@@ -52,9 +52,12 @@ u {
   margin: 0;
   padding: 0;
 }
-
 .littlespacebetween {
   height: 6px;
+}
+
+.webframe {
+  width: 100%;
 }
 
 /* Week 1 text hyperlinks */

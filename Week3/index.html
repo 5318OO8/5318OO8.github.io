@@ -19,8 +19,7 @@
   <div class=actwk1 onclick="scrollToAct1()" style="cursor: pointer;">H&G #3</div> 
   <div class=actwk1 onclick="scrollToAct2()" style="cursor: pointer;">LOOK!</div> 
   <div class=actwk1 onclick="scrollToAct3()" style="cursor: pointer;">W#A1</div>
-  <div class=actwk1 onclick="scrollToAct4()" style="cursor: pointer;">W#A2</div>
-  <div class=actwk1 onclick="scrollToAct5()" style="cursor: pointer; text-decoration: line-through; text-decoration-color:#0b3 ">Loading...</div> 
+  <div class=actwk1 onclick="scrollToAct4()" style="cursor: pointer; text-decoration: line-through; text-decoration-color:#0b3 ">Loading...</div> 
   </div>
 <div style="position: fixed; bottom: .5em; right: 3em; height: 60pt; text-align: right;">
   <div></div>
@@ -51,10 +50,6 @@
       var element = document.getElementById("act4");
       element.scrollIntoView();
     }
-    function scrollToAct5() {
-      var element = document.getElementById("act5");
-      element.scrollIntoView();
-    }
 </script>
 
 
@@ -67,10 +62,6 @@
 
 <div class="flex-container">
       <div class="flex-item-left">
-        <p>Week 1 was a week of learning and experimentation. I learned about the basics of HTML and CSS, and how to use them to create a simple webpage. I also learned about the box model, flexbox, and responsive design. I experimented with different layouts and styles to create a unique and visually appealing webpage. Overall, it was a fun and challenging week, and I'm excited to continue learning and experimenting in the weeks to come.</p>
-        <div></div>
-        <div></div>
-        <div></div>
 
 
         
@@ -176,22 +167,17 @@
 
         <div id="act2"></div>
         <p><b>LOOK!</b></p>
-        <p class="nospacebetween underline">"Access one of the following web works or series (grab screenshots if you can)."</p>
-        <p class="nospacebetween underline">"Describe the work(s) you find."</p>
+        <p class="nospacebetween underline">"Access and look critically at one of the following commercial sites."</p>
+        <p class="nospacebetween underline">"Describe the overall structure. Using developer tools find out the exact color palette used, list the Headline and body font (s)."</p>
         <p class="nospacebetween underline">"List the interactive elements such as buttons, cursor control, sound, colour, animation, or style change (what, what for and how do they work)"</p>
         <div></div>
-        <p>The Web-page I accessed was called <a class=textlinkwk1 href="https://theuselessweb.com/"><em>Theuselessweb.com</em></a>. After I pressed the <em>PLEASE</em> button, I was taken to a website called <a class=textlinkwk1 href="https://theuselessweb.com/"><em>SLIDING TOYS</em></a>. The website had a game advertised on it, which I travelled to after pressing the <a class=textlinkwk1 href="https://theuselessweb.com/"><em>PLAY</em></a> button.</p>
-        <p>Looking through <em>Inspect element</em>, I found out interactive elements on the site.</p>
+        <p>The Web-page I accessed was called <a class=textlinkwk1 href="https://openai.com/"><u>OpenAI.com</u></a></p>
         <figure>
-          <img src="../img/wk2/screenshot01.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>The different colours used on the page</figcaption>
+          <img src="../img/wk3/openai.png" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
         </figure>
-        <figure>
-          <img src="../img/wk2/screenshot02.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^The changing of code, as the cells move across rows and columns. Also how the style of the cell changes when the cell is in the 'correct position'</figcaption>
-        </figure>
-        <div></div>
-        <p>The page had a simplistic visual design, and was reasonably user-friendly.</p>
+        <p>The websites overall comprised of no grids, just flexbox's that is visually presented to roughly divide the html page in half. Looking through <em>Inspect element</em>, I found out that the websites colour pallet, was very minimal, but was complex with its fonts.</p>
+        <p>#000000 was a colour predominately used as a background colour. #FFFFFF was used for all text. Font-family: Soehne, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif.</p>
+        <p>Some of the Ineractive elements I found on this page included: Buttons, hyperlinks, images, autoplayed video's on loop, collapsible sidebars.</p>
         <div></div>
         <div></div>
         <div></div>
@@ -204,51 +190,21 @@
 
 
         <div id="act3"></div>
-        <p><b>WORKSHOP ACTIVITY 1: Paper Prototyping</b></p>
-        <p class="nospacebetween underline">"How to use paper prototyping as a quick web development tool."</p>
-        <p class="nospacebetween underline">"Make a website or simple game on paper (details revealed in class)"</p>
-        <p class="nospacebetween underline">"UX & User testing & 'cognitive walkthrough: Ask your peers to play your 'game' or 'use your paper site'"</p>
-        <div></div>
-
-
-        <p><em>01</em><a class=textlinkwk1 href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s"> Crazy 8's</a></p>
-        <p>8 different website pages, each one drawn in 1 minuet</p>
-        <figure>
-          <img src="../img/wk2/crazy8.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-        </figure>
-        <div></div>
-        <div></div>
-
-        
-
-        <p><em>02</em><a class=textlinkwk1 href="https://www.mockplus.com/learn/prototype/paper-prototype"> Paper Prototyping</a></p>
-        <p class="nospacebetween underline">Things to Consider:</p>
-        <p class="nospacebetween underline">>"Stick to one sketch per screen (a piece of paper). Create user flows by placing pieces of paper in sequences. Switch these around or add new screens."</p>
-        <p class="nospacebetween underline">>"Iterate as the ideas come to mind. The goal is quantity, not quality. When you create lots of paper prototype ideas, you often end up taking bits from each to get the final result—like a Lego set, but with paper."</p>
-        <p class="nospacebetween underline">>"Planning is crucial! Ensure you have enough pens (black fine-tipped markers work best), paper, scissors, glue, post-it notes, index cards, tape, cardboard, and anything else you think your specific project might need."</p>
+        <p><b>WORKSHOP ACTIVITY 1: FLUID DESIGN WITH @MEDIA QUERIES</b></p>
+        <p class="nospacebetween underline">"Sketch your site for mobile based on your desktop design."</p>
+        <p class="nospacebetween underline">"Annotate your decisions and priorities"</p>
         <div></div>
         <figure>
-          <img src="../img/wk2/sketch01.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Contents on the far left Column. Middle column is the page of information that comes up when a page on the contents is selected.</figcaption>
+          <img src="../img/wk3/home.jpg" alt="drawingcrome" style="width:25%; border: 2px #cccccc solid"> <img src="../img/wk3/page.jpg" alt="drawingcrome" style="width:25%; border: 2px #cccccc solid"> <img src="../img/wk3/menu.jpg" alt="drawingcrome" style="width:25%; border: 2px #cccccc solid" >
         </figure>
+        <p>The image on the left is the home page. When any of the Weeks are pressed on, the html will open the week page which will look like the centre image. When the Week 1 text at the top is selected a collapsable sidebar will open the mobile navigation menu. This looks like the image on the right.</p>
+        <p>The layout of the pages will be largely the same, with the help of @media Inquiries</p>
         <div></div>
-        <figure>
-          <img src="../img/wk2/sketch06.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Trial to see if containing the elements in a internal frame would hylight the content on the page better. Unsure. Minimal contents look alright.</figcaption>
-        </figure>
         <div></div>
-        <figure>
-          <img src="../img/wk2/sketch07.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Trying another method of arranging elements on the page. Looking into idea's about colour variations per page.</figcaption>
-        </figure>
         <div></div>
-        <figure>
-          <img src="../img/wk2/sketch02.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Contents on the far right column, including pages within pages. the column left takes up the rest of the page.</figcaption>
-        </figure>
         <div></div>
-
-
+        <div></div>
+        <div></div>
 
 
 
@@ -258,53 +214,158 @@
 
 
         <div id="act4"></div>
-        <p><b>WORKSHOP ACTIVITY 2: "MAKE IT BLING"</b></p>
-        <p class="nospacebetween underline">"Wireframe and sketch your workbook"</p>
-        <div></div>
-        <figure>
-          <img src="../img/wk2/sketch03.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Trying to arrange content on the page by elements. Using a wireframe, I experimented with the idea of having images on the screen between C1/C2 - C5 ; and for the text to be between C0 - C5. 
-            <div>The wireframe is used to balance the page.</div>
-          </figcaption>
-        </figure>
-        <div></div>
-        <figure>
-          <img src="../img/wk2/sketch04.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ A more clear presentation of the invisible wires</figcaption>
-        </figure>
-        <div></div>
-        <figure>
-          <img src="../img/wk2/sketch05.jpg" alt="drawingcrome" style="width:75%; border: 5px #cccccc solid" >
-          <figcaption>^ Here the element restrictions on images, and text were played with; and the overall balance of the web-page</figcaption>
-        </figure>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-
-
-
-
-        
-
-        <div id="act5"></div>
         <p><b>WEB_DEVELOPMENT</b></p>
+
         <figure>
-          <img src="../img/wk2/progress01.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
-          <figcaption>^Experimenting with the presentation of text on the page. The layout was manipulated from a page on 
-            <a class=textlinkwk1 href="https://nickm.com/">Nick Montfort's</a> digital book: 
-            <a class=textlinkwk1 href="https://nickm.com/taroko_gorge/">Taroko Gorge</a>. The page was titled: 
-            <a class=textlinkwk1 href="https://nickm.com/taroko_gorge/tokyo_garage/">Taroko Gorge</a>.
+          <img src="../img/wk3/prog01.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Figuring out grid systems from CSS taken from<a class=textlinkwk1 href="http://960.gs/">960 Grid System</a> 
           </figcaption>
         </figure>
-          <figure>
-            <img src="../img/wk2/progress02.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
-            <figcaption>^Text place-holder uses the lyrics from Ludacris' song titled,<a class=textlinkwk1 href="https://genius.com/Ludacris-whats-your-fantasy-lyrics">What's your Fantasy ft. Shawnna</a> 
-            </figcaption>
-          </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk3/prog02.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^creating a path to upload files to a github repository
+          </figcaption>
+        </figure>
+        <div></div>
+        
+        <figure>
+          <img src="../img/wk3/prog03.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^re-orginising page
+          </figcaption>
+        </figure>
+        <div></div>
+                
+        <figure>
+          <img src="../img/wk3/prog04.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Experimenting with homepage links in html
+          </figcaption>
+        </figure>
+        <div></div>
+                        
+        <figure>
+          <img src="../img/wk3/prog05.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^experimenting with homepage, or menu directory
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk3/prog06.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^attempt to integrate into design. In correspondance with Karen Ann Donnachie, I found that the way I was going about this was massively overly-complicated. Something to be solved through a quick look at w2Schools. Particularly, a collapsable sidebar & Mobile Navigation Menu.
+          </figcaption>
+        </figure>
+        <div></div>
+                                
+        <figure>
+          <img src="../img/wk3/prog07.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Links fixed on page now, while content is scrolling
+          </figcaption>
+        </figure>
+        <div></div>
+                                        
+        <figure>
+          <img src="../img/wk3/prog08.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Setting type alignments
+          </figcaption>
+        </figure>
+        <div></div>
+
+                                                
+        <figure>
+          <img src="../img/wk3/prog09.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^creating grids
+          </figcaption>
+        </figure>
+        <div></div>
+                                                        
+        <figure>
+          <img src="../img/wk3/prog10.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^creating media responsive grids
+          </figcaption>
+        </figure>
+        <div></div>
+                                                        
+        <figure>
+          <img src="../img/wk3/prog11.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Responsive grid edits
+          </figcaption>
+        </figure>
+        <div></div>
+                                                                
+        <figure>
+          <img src="../img/wk3/prog12.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Responsive grid integration into website.
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk3/prog13.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^applying @media Inquiries as well.
+          </figcaption>
+        </figure>
+        <div></div>
+      
+        <figure>
+          <img src="../img/wk3/prog14.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Formatting and editing style elements
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk3/prog15.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^Quick javascript application to select contents on the right and scroll to heading in body text
+          </figcaption>
+        </figure>
+        <div></div>
+        
+        <figure>
+          <img src="../img/wk3/prog16.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^hover elements
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk3/prog17.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption> Moving Style elements from html to css, to make everything more readable, and ensure parametric design.
+          </figcaption>
+        </figure>
+        <div></div>
+        
+        <figure>
+          <img src="../img/wk3/prog18.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption> Working with image, and captions
+          </figcaption>
+        </figure>
+        <div></div>
+
+                
+        <figure>
+          <img src="../img/wk3/prog19.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption> Working with video
+          </figcaption>
+        </figure>
+        <div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div></div>
       <div></div>
     <div></div>

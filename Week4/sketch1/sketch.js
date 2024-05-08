@@ -30,7 +30,7 @@
 "use strict";
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(550, 550);
   strokeCap(SQUARE);
 }
 

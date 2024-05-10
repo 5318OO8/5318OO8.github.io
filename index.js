@@ -1,12 +1,21 @@
-var capture;
+var sketch1 = function (p) {
+  var capture;
 
-function setup() {
-  capture = createCapture(VIDEO);
-  capture.size(640, 480);
-  capture.hide();
-}
+  p.setup = function () {
+    capture = p.createCapture(p.VIDEO);
+    capture.size(640, 480);
+    capture.hide();
+  };
 
-function draw() {
-  image(capture, width / 2 - 320, height / 2 - 240);
-  filter(THRESHOLD);
-}
+  p.draw = function () {
+    p.image(capture, p.width / 2 - 320, p.height / 2 - 240);
+    p.filter(p.THRESHOLD);
+  };
+};
+
+var sketch2 = function (p) {
+  // Define your second sketch here
+};
+
+new p5(sketch1);
+new p5(sketch2);

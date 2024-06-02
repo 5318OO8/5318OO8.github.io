@@ -17,8 +17,11 @@
       <div style="position: fixed; top: 2.75em; right: 4.5em; color: #ff66ff; height: 60pt; text-align: right;">
   <div></div>
   <div></div>
-  <div class=actwk1 onclick="scrollToAct1()" style="cursor: pointer;">W#A1</div> 
-  <div class=actwk1 onclick="scrollToAct3()" style="cursor: pointer;">P5 <em>Ex</em></div>
+  <div class=actwk1 onclick="scrollToAct1()" style="cursor: pointer;">H&G #7</div> 
+  <div class=actwk1 onclick="scrollToAct2()" style="cursor: pointer;">Cp:Fish_p</div>
+  <div class=actwk1 onclick="scrollToAct3()" style="cursor: pointer;">Cp:LED</div>
+  <div class=actwk1 onclick="scrollToAct4()" style="cursor: pointer;">PP</div>
+
   </div>
 <div style="position: fixed; bottom: .5em; right: 3em; height: 60pt; text-align: right;">
   <div></div>
@@ -26,7 +29,7 @@
     <div>
     </div>
   </div> 
-  <script src="/Week6/index.js"></script>
+  <script src="/Week8/index.js"></script>
 </head>
 <body>
 
@@ -38,7 +41,10 @@
       var element = document.getElementById("act1");
       element.scrollIntoView();
     }
-
+    function scrollToAct2() {
+      var element = document.getElementById("act2");
+      element.scrollIntoView();
+    }
   function scrollToAct3() {
       var element = document.getElementById("act3");
       element.scrollIntoView();
@@ -56,25 +62,76 @@
 
 
 
+
+
+
+
+
 <body>
 <div class="flex-container">
       <div class="flex-item-left">
         <div id="act1"></div>
-        <p><b>WORKSHOP ACTIVITY 1: I Hear you!</b></p>
-        <p class="nospacebetween underline">"How to add sound IN (microphone) and OUT"</p>
-        <p class="nospacebetween underline">"Create a Tone player"</p>
-        <p class="nospacebetween underline">"Triggering notes/patterns/clips"</p>
-        <p class="nospacebetween underline">"Wot o'clock?"</p>
+        <p><b>HUNT'N'GATHER #8</b></p>
+        <p class="underline">"Find & document (with a reference & one sentence & 1 image) 3 x examples of interesting / engaging / quirky / unique / or otherwise noteworthy PHYSICAL COMPUTING examples. These could be wearables, installations, design or art objects. How are they interactive? What do they do?".</p>
+        <div></div>
+
+        <p><em>01</em>_Light Portals by <a class=textlinkwk1 href="https://tricktronix.com/"> tricktronix</a></p>
+        <video 
+        width="30%" style="height: auto; border: 1px #cccccc solid;" controls playonclick loop>
+        <source src="https://scontent-lhr8-1.cdninstagram.com/o1/v/t16/f2/m69/An_ZtaqeQkN-MPtyjpaFKDYz414Rrsmz8AFvzf0WqnLzAjQbTjJtZuAanqxva_VFhjLkORtDgva03LeaJUGsBzh6.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNTQwLmJhc2VsaW5lIn0&_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=108&vs=1178686006723020_1781980266&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HT0IzU3djZ213V1l0TFVDQUNZX2lraU5WRHhyYnBSMUFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dDQ05QUWRXenZneEdKSUdBRGZRYkxaeVZraElicFIxQUFBRhUCAsgBACgAGAAbABUAACbs1e%2F%2Bve2QQBUCKAJDMywXQDwZmZmZmZoYEmRhc2hfYmFzZWxpbmVfMl92MREAdf4HAA%3D%3D&_nc_rid=e29e1cb195&ccb=9-4&oh=00_AYDUkbQ93Si6eZMoUOJ-tnjSvvD-msyusNrh2IP2CDqlwA&oe=665DD416&_nc_sid=10d13b"
+        type="video/mp4">
+      </video>
+      <video 
+      width="30%" style="height: auto; border: 1px #cccccc solid;" controls playonclick loop>
+      <source src="https://scontent-lhr6-2.cdninstagram.com/o1/v/t16/f2/m69/An_8pMvJP3Gtsj_JDCoN9WFSW56HqZMjqSddKlHSvoxBJ2PpnUUxzJNssIPRG_51SexaKLwRdtK9aG9-337QlA0.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNTQwLmJhc2VsaW5lIn0&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_cat=100&vs=974169720596773_3408226811&_nc_vs=HBksFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSUowNlJJVjRuNFpsMHNCQUlpRHh1Z0lXbXBXYnBSMUFBQUYVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dKZU1BeG9EczZKRzNMOEFBRDJGZDdsMEVycFlicV9FQUFBRhUCAsgBACgAGAAbABUAACbIkpOc04aYQRUCKAJDMywXQDb3S8an754YEmRhc2hfYmFzZWxpbmVfMl92MREAdf4HAA%3D%3D&_nc_rid=ca7ddb83f0&ccb=9-4&oh=00_AYCTFAd_ItM1uuzdopk2kyKmuonTmqvGonL7DDTjdbCnTg&oe=665DE33E&_nc_sid=10d13b"
+      type="video/mp4">
+    </video>
+    <video 
+    width="30%" style="height: auto; border: 1px #cccccc solid;" controls playonclick loop>
+    <source src="https://scontent.cdninstagram.com/o1/v/t16/f1/m82/914F99DBC06B74CC3E22E5D4AD6CC69B_video_dashinit.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuMzYwLmJhc2VsaW5lIn0&_nc_ht=scontent.cdninstagram.com&_nc_cat=109&vs=405265285363298_1120875291&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC85MTRGOTlEQkMwNkI3NENDM0UyMkU1RDRBRDZDQzY5Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dBeTdyd25xWmpla1BYVUJBQmZQUVE1S1d0RnRicFIxQUFBRhUCAsgBACgAGAAbABUAACaO2rC9kd2nQBUCKAJDMywXQC5mZmZmZmYYEmRhc2hfYmFzZWxpbmVfMl92MREAdf4HAA%3D%3D&_nc_rid=4155c981e6&ccb=9-4&oh=00_AYB7vzDI3khFsrJNL0yD6b9AnZKx-x3hbNShLDDu_tqRkg&oe=665E0029&_nc_sid=10d13b"
+    type="video/mp4">
+  </video>
+      <div>
+        <videocaption>video source: <a class=textlinkwk1 href="https://www.instagram.com/tricktronix_/"><em>@tricktronix_</em></a></videocaption>
+        <p><u>Love</u> the interaction with the medium itself. And the easy-to-understand interface</p>
+      </div>
+      <div></div>
+      <div></div>
+
+
+
+<p><em>02</em>_Pocket Operator play. interface by<a class=textlinkwk1 href="https://teenage.engineering/products/po"> Teenage Engineering</a></p>
+<video 
+width="30%" style="height: auto; border: 1px #cccccc solid;" controls>
+  <source src="https://scontent-lhr8-2.cdninstagram.com/o1/v/t16/f1/m82/F549AE126C141CED42146A60895B83AE_video_dashinit.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuMzYwLmJhc2VsaW5lIn0&_nc_ht=scontent-lhr8-2.cdninstagram.com&_nc_cat=101&vs=777986437559848_1832649648&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC9GNTQ5QUUxMjZDMTQxQ0VENDIxNDZBNjA4OTVCODNBRV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dJbU90UmtzY1FFcHVYOEJBSC1RQXNOaEQzQUlicV9FQUFBRhUCAsgBACgAGAAbABUAACa%2BzsDKiYvuQBUCKAJDMywXQELqn752yLQYEmRhc2hfYmFzZWxpbmVfMl92MREAdf4HAA%3D%3D&_nc_rid=0311935369&ccb=9-4&oh=00_AYATrnKNHuK9Zg88oEmFlUocVHt2BB6aY2zg-k_eIdlsaQ&oe=665DEA41&_nc_sid=10d13b"
+  type="video/mp4">
+</video>
+<div>
+  <videocaption>Credit: <a class=textlinkwk1 href="https://www.instagram.com/twinkrot/"><em>@twinkrot</em></a></videocaption>
+</div>
+<p>A portable small compatible music device. Different models include different synthesisers; samplers; sequencers; drum machines; and recording devices.</p>
+<div></div>
+<div></div>
+
+<p><em>03</em>_Fastracker II <a class=textlinkwk1 href="https://cdm.link/2018/04/90s-alive-free-modern-clone-fasttracker-ii/"> About Fastracker</a></p>
+<video 
+width="30%" style="height: auto; border: 1px #cccccc solid;" controls>
+  <source src="https://scontent-lhr8-1.cdninstagram.com/o1/v/t16/f1/m82/1244164A9C1D061BCDDDAAEB9D185081_video_dashinit.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuMzYwLmJhc2VsaW5lIn0&_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_cat=103&vs=756906986382600_1899623753&_nc_vs=HBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC8xMjQ0MTY0QTlDMUQwNjFCQ0REREFBRUI5RDE4NTA4MV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dHTjNaeG5jV0s1UHBac0NBSlBPNEhlTnlKOGFicV9FQUFBRhUCAsgBACgAGAAbABUAACbCuIWll6jUPxUCKAJDMywXQFYzMzMzMzMYEmRhc2hfYmFzZWxpbmVfMl92MREAdf4HAA%3D%3D&_nc_rid=a9a3b41542&ccb=9-4&oh=00_AYAiBJGGZ93bY_T_-2WiTUH3pudXUZt5DFzZfdB1rK8GTw&oe=665DF60A&_nc_sid=10d13b"
+  type="video/mp4">
+</video>
+<div>
+  <videocaption>Credit: <a class=textlinkwk1 href="https://www.instagram.com/twinkrot/"><em>@twinkrot</em></a></videocaption>
+</div>
+<p>A 90's Music Daw. I was attracted to the interface, and how the general form of the buttons. The presentation of it here on a low-bit screen, recored with a fish eye lense. All adds to the aesthetic.  </p>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
 <div></div>
 
 
 
-<video 
-width="20%" style="height: auto; border: 1px #cccccc solid;" controls>
-  <source src="https://scontent-sin6-4.cdninstagram.com/v/t66.30100-16/120681308_786832093399081_2850108823123765380_n.mp4?_nc_ht=scontent-sin6-4.cdninstagram.com&_nc_cat=101&_nc_ohc=MjIJ8q_0h9wQ7kNvgEWu9LQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBDEM0lnhiiIfWyQbvqkpdZpKe-7oagRRi7-SrCEJxytA&oe=665C9029&_nc_sid=cf751b"
-  width="673px" 
-  type="video/mp4">
-</video>
 
 
 
@@ -83,79 +140,38 @@ width="20%" style="height: auto; border: 1px #cccccc solid;" controls>
 
 
 
-        <p><em>01</em><a class=textlinkwk1 href="https://github.com/karenanndonnachie/VCA_INTERACTIVEMEDIA/tree/main/p5/spinnyText"> 'SpinnyText' code by Karenn Ann Donnachie</a></p>
-        <iframe src="https://scontent-sin6-4.cdninstagram.com/v/t66.30100-16/120681308_786832093399081_2850108823123765380_n.mp4?_nc_ht=scontent-sin6-4.cdninstagram.com&_nc_cat=101&_nc_ohc=MjIJ8q_0h9wQ7kNvgEWu9LQ&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBDEM0lnhiiIfWyQbvqkpdZpKe-7oagRRi7-SrCEJxytA&oe=665C9029&_nc_sid=cf751b" 
-        width="750px" height="500px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-        <p>Shape manipulations</p>
-        <div></div>
-
-        <p><em>02</em><a class=textlinkwk1 href="https://github.com/karenanndonnachie/VCA_INTERACTIVEMEDIA/tree/main/p5/INT_MEDIA_sound_circles"> 'sound_circles' code by Karenn Ann Donnachie</a></p>
-        <iframe src="/0P5/04/index.html" 
-        width="750px" height="500px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-        <p>"this sketch introduces the microphone as audio input, a sound analysis (bass, mid, treble) and a circular visual representation of the sound as it comes in through the mic."</p>
-        <div></div>
-
-        <p><em>03</em><a class=textlinkwk1 href="https://github.com/karenanndonnachie/MESS_IS_MORE/tree/main/P5JS/CHAPTER_3_SOUND/Speech"> 'speech' code by Karenn Ann Donnachie</a></p>
-        <iframe src="/0P5/05/index.html" 
-        width="800px" height="450px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-        <p>live transcription of audio from microphone</p>
-        <div></div>
-
-        <p><em>04</em><a class=textlinkwk1 href="https://github.com/karenanndonnachie/MESS_IS_MORE/tree/main/P5JS/CHAPTER_3_SOUND/soundTest"> 'soundTest' code by Karenn Ann Donnachie</a></p>
-        <iframe src="/0P5/06/index.html" 
-        width="800px" height="450px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-        <p>"text spins and 'grows' with volume of loaded sound"</p>
-
-
-
-
-
+        <div id="act2"></div>
+        <p><b>CIRCUIT PLAY: FISH PLAYGROUND</b></p>        
+        <figure>
+          <img src="../img/wk8/fsketch.png" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^circuit sketch and information from <a class=textlinkwk1 href="https://www.tinkercad.com/things/7ma5VUIWZRz-copy-of-copy-of-fish-playground/editel?tenant=circuits">Karen_Ann_Donnachie</a> github.
+          </figcaption>
+        <figure>
+          <img src="../img/wk8/f1.jpg" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+          <figcaption>^As the numbers recorded by the photoresistor are changed, the micro Servo will rotate. The code will need to be calibrated prior in the Arduino IDE to effectively read the changes in lumens. 
+          </figcaption>
+        </figure>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
         <div></div>
-
-
-
-
+        
         <div id="act3"></div>
-        <p><b><em>Experimentations w/ P5</em></b></p>
-      
-        <p><em>01</em><a class=textlinkwk1 href="https://github.com/karenanndonnachie/VCA_INTERACTIVEMEDIA/tree/main/p5/INT_MEDIA_TEXTSOUND"> TextSound by Karen Ann Donnachie</a></p>
-        <iframe src="/0P5/03/index.html" 
-        width="665px" height="520px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
- <p>Inputting sound from an mp3 to generate visuals.</p>       
- <p>Also I dont know how to pause it. Just refresh the page. :(</p>
-        <div></div>
+        <p><b>CIRCUIT PLAY: Counting LED MATRIX</b></p> 
+        <p>The completion of a circuit that repeatedly counts from 1 to 10.</p>       
+        <figure>
+          <img src="../img/wk8/sketch.png" alt="drawingcrome" style="width:40%; border: 2px #cccccc solid" >
+          <figcaption>Sketch from page 136 of <a class=textlinkwk1 href="../img/wk8/freenove.pdf">Freenove_Userguide_tutorial.pdf</a>
+          </figcaption>
+        <figure>
+          <img src="../img/wk8/01.jpg" alt="drawingcrome" style="width:100%; border: 2px #cccccc solid" >
+           <img src="../img/wk8/02.jpg" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
 
-        <p><em>02</em><a class=textlinkwk1 href="https://github.com/matildasutho/matildasutho.github.io/tree/main/InteractiveMedia2024/Week6"> Week6 by Matilda Sutho</a></p>
-        <iframe src="/0P5/07/index.html" 
-        width="800px" height="500px"
-        frameborder="1px #cccccc solid" allow="accelerometer;
-        clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
- <p>^moving in space</p>
-        <div></div>
-
-
-
-
-
-
-
-
-
+          <figcaption>^working circuit completed in class.
+          </figcaption>
+        </figure>
         <div></div>
         <div></div>
         <div></div>
@@ -163,6 +179,68 @@ width="20%" style="height: auto; border: 1px #cccccc solid;" controls>
         <div></div>
         <div></div>
 
+
+
+
+        <div id="act4"></div>
+        <p><b>PERSONAL PROJECT<em><a class=textlinkwk1 href="https://www.tinkercad.com/learn/circuits?collectionId=O0K87SQL1W5N4P2">Tinkercad</a></em>
+        </b></p>
+        
+        <figure>
+          <img src="../img/wk7/t00.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Learning basic circuitry. 
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t01.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Learning how to apply ohms law
+          </figcaption>
+        </figure>
+        <div></div>
+        
+        <figure>
+          <img src="../img/wk7/t02.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Editing circuits using sound
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t04.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^exploring adding different components, like motors.
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t05.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Learning how to use a breadboard to create circuits with LED's.
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t06.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Learning how to use switches to turn on and off LED's.
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t07.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Experimenting with manipulating RGB colouring
+          </figcaption>
+        </figure>
+        <div></div>
+
+        <figure>
+          <img src="../img/wk7/t08.png" alt="drawingcrome" style="width:75%; border: 2px #cccccc solid" >
+          <figcaption>^Exploring what happens when colours are combined. 
+          </figcaption>
+        </figure>
+        <div></div>
 
 
 
